@@ -3,7 +3,7 @@ package oops.wrapperclasses;
 public class AutoboxingVariables {
 	/*
 	 * Autoboxing => Converting premitive types to object types. We can use built in methods using those objects
-	 * Inboxing => Converting object types to premitive tyoes
+	 * Inboxing => Converting object types to premitive types
 	 */
 	
 	// Premitive types
