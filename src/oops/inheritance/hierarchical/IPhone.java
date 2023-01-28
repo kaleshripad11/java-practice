@@ -1,4 +1,4 @@
-package oops.inheritance.multilevel;
+package oops.inheritance.hierarchical;
 
 public class IPhone extends Mobiles {
 	String os_name = "IOS";

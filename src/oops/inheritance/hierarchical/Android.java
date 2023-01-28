@@ -1,4 +1,4 @@
-package oops.inheritance.multilevel;
+package oops.inheritance.hierarchical;
 
 public class Android extends Mobiles {
 	String os_name = "Android OS";

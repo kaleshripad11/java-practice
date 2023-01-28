@@ -1,4 +1,4 @@
-package oops.inheritance.multilevel;
+package oops.inheritance.hierarchical;
 import java.util.Scanner;
 public class Mobiles {
 	String basic_purpose = "To make and receive phone calls!";
