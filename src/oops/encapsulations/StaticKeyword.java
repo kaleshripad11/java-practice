@@ -31,15 +31,15 @@ public class StaticKeyword {
 		StaticKeyword sk,sk1,sk2;
 		sk = new StaticKeyword();
 		System.out.println("University Name   : "+university);
-		sk.getData(100, "Shripad", 459);
+		sk.getData(100, "Xyz", 459);
 		System.out.println("-----------------------------------------------------------");
 		sk1 = new StaticKeyword();
 		System.out.println("University Name   : "+university);
-		sk.getData(101, "Shiwani", 465);
+		sk.getData(101, "Pqr", 465);
 		System.out.println("-----------------------------------------------------------");
 		sk2 = new StaticKeyword();
 		System.out.println("University Name   : "+university);
-		sk.getData(102, "Onkar", 459);
+		sk.getData(102, "RST", 459);
 		System.out.println("-----------------------------------------------------------");
 	}
 }
