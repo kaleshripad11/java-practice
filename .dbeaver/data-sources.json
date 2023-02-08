@@ -1,0 +1,54 @@
+{
+	"folders": {},
+	"connections": {
+		"sqlite_jdbc-18601b0d996-5e56abe915f4233": {
+			"provider": "sqlite",
+			"driver": "sqlite_jdbc",
+			"name": "chinook.db",
+			"save-password": true,
+			"configuration": {
+				"database": "C:\\SQLite3\\db\\chinook.db",
+				"url": "jdbc:sqlite:C:\\SQLite3\\db\\chinook.db",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"auth-model": "native"
+			}
+		},
+		"mysql8-18602705b0c-3ecf92d0a6950c7f": {
+			"provider": "mysql",
+			"driver": "mysql8",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "3306",
+				"url": "jdbc:mysql://localhost:3306/",
+				"configurationType": "MANUAL",
+				"home": "C:\\Program Files\\MySQL\\MySQL Router 8.0",
+				"type": "dev",
+				"properties": {
+					"connectTimeout": "20000",
+					"rewriteBatchedStatements": "true",
+					"enabledTLSProtocols": "TLSv1,TLSv1.1,TLSv1.2",
+					"allowPublicKeyRetrieval": "true",
+					"useSSL": "false"
+				},
+				"auth-model": "native"
+			},
+			"custom-properties": {
+				"resultset.maxrows": "0"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
