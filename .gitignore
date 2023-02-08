@@ -3,3 +3,5 @@
 .git
 .project
 .classpath
+*/.dbeaver/*
+.dbeaver/*
